@@ -1,0 +1,33 @@
+{"level":"info","message":"Hello from ccd","service":"ccdcca-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:19:53:32 +0000] \"GET / HTTP/1.1\" 200 17 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"ccdcca-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:19:53:32 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"ccdcca-api"}
+{"level":"info","message":"Hello from ccd","service":"ccdcca-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:20:03:35 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"ccdcca-api"}
+{"level":"info","message":"Hello from ccd","service":"ccdcca-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:20:05:22 +0000] \"GET / HTTP/1.1\" 200 17 \"-\" \"PostmanRuntime/7.46.0\"","service":"ccdcca-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:20:06:18 +0000] \"GET /api HTTP/1.1\" 200 28 \"-\" \"PostmanRuntime/7.46.0\"","service":"ccdcca-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:20:06:50 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.46.0\"","service":"ccdcca-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:20:25:17 +0000] \"POST /api/auth/sign-up?name=vijay&email=bkjb@kjj.com&password=jb,&role=d HTTP/1.1\" 400 92 \"-\" \"PostmanRuntime/7.46.0\"","service":"ccdcca-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:20:26:49 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"PostmanRuntime/7.46.0\"","service":"ccdcca-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:20:27:20 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"PostmanRuntime/7.46.0\"","service":"ccdcca-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:20:27:31 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"PostmanRuntime/7.46.0\"","service":"ccdcca-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:20:28:43 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"PostmanRuntime/7.46.0\"","service":"ccdcca-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:20:29:08 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"PostmanRuntime/7.46.0\"","service":"ccdcca-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:20:29:11 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"PostmanRuntime/7.46.0\"","service":"ccdcca-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:20:32:11 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"PostmanRuntime/7.46.0\"","service":"ccdcca-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:20:34:41 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"PostmanRuntime/7.46.0\"","service":"ccdcca-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:20:35:22 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"PostmanRuntime/7.46.0\"","service":"ccdcca-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:20:36:31 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"PostmanRuntime/7.46.0\"","service":"ccdcca-api"}
+{"level":"info","message":"User registered successfully: vijaytalsnb@hnmai.com","service":"ccdcca-api"}
+{"level":"error","message":"Signup error role is not defined","service":"ccdcca-api","stack":"ReferenceError: role is not defined\n    at signup (file:///D:/Coding/node/ccdcca2/src/controllers/auth.controller.js:35:27)\n    at Layer.handleRequest (D:\\Coding\\node\\ccdcca2\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (D:\\Coding\\node\\ccdcca2\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (D:\\Coding\\node\\ccdcca2\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (D:\\Coding\\node\\ccdcca2\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (D:\\Coding\\node\\ccdcca2\\node_modules\\router\\lib\\layer.js:152:17)\n    at D:\\Coding\\node\\ccdcca2\\node_modules\\router\\index.js:295:15\n    at processParams (D:\\Coding\\node\\ccdcca2\\node_modules\\router\\index.js:582:12)\n    at next (D:\\Coding\\node\\ccdcca2\\node_modules\\router\\index.js:291:5)\n    at Function.handle (D:\\Coding\\node\\ccdcca2\\node_modules\\router\\index.js:186:3)"}
+{"level":"info","message":"::1 - - [20/Sep/2025:20:37:53 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 500 1105 \"-\" \"PostmanRuntime/7.46.0\"","service":"ccdcca-api"}
+{"level":"info","message":"User registered successfully: vijaytalsnb@hnmai.com","service":"ccdcca-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:20:39:14 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 92 \"-\" \"PostmanRuntime/7.46.0\"","service":"ccdcca-api"}
+{"level":"info","message":"User vijaytalsnb@hnmai.com created successfully","service":"ccdcca-api"}
+{"level":"info","message":"User registered successfully: vijaytalsnb@hnmai.com","service":"ccdcca-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:20:44:22 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 106 \"-\" \"PostmanRuntime/7.46.0\"","service":"ccdcca-api"}
+{"level":"info","message":"User vijaytalsnb@hnmai.com authenticated successfully","service":"ccdcca-api"}
+{"level":"info","message":"User signed in successfully: vijaytalsnb@hnmai.com","service":"ccdcca-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:20:54:09 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 118 \"-\" \"PostmanRuntime/7.46.0\"","service":"ccdcca-api"}
+{"level":"info","message":"User signed out successfully","service":"ccdcca-api"}
+{"level":"info","message":"::1 - - [20/Sep/2025:20:54:41 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 42 \"-\" \"PostmanRuntime/7.46.0\"","service":"ccdcca-api"}
