@@ -4,7 +4,9 @@ import { drizzle } from 'drizzle-orm/neon-http';
 import logger from './logger.js';
 
 // Configure Neon for different environments
-const isLocal = process.env.NODE_ENV === 'development' && process.env.DATABASE_URL?.includes('neon-local');
+const isLocal =
+  process.env.NODE_ENV === 'development' &&
+  process.env.DATABASE_URL?.includes('neon-local');
 
 if (isLocal) {
   // Configuration for Neon Local proxy
@@ -12,7 +14,7 @@ if (isLocal) {
   neonConfig.fetchEndpoint = 'http://neon-local:5432/sql';
   neonConfig.useSecureWebSocket = false;
   neonConfig.poolQueryViaFetch = true;
-  
+
   // Disable SSL verification for local development
   neonConfig.fetchConnectionCache = true;
 } else {
@@ -24,7 +26,7 @@ if (isLocal) {
 
 const sql = neon(process.env.DATABASE_URL);
 const db = drizzle(sql, {
-  logger: process.env.NODE_ENV === 'development'
+  logger: process.env.NODE_ENV === 'development',
 });
 
 // Test database connection

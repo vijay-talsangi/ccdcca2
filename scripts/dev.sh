@@ -44,6 +44,7 @@ docker compose exec neon-local psql -U neon -d neondb -c 'SELECT 1'
 
 # Start development environment
 docker compose -f docker-compose.dev.yml up --build
+docker compose -f docker-compose.dev.yml up app
 
 echo ""
 echo "🎉 Development environment started!"
