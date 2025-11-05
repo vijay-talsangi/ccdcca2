@@ -21,26 +21,26 @@ spec:
             - containerPort: 3000
           env:
             - name: NODE_ENV
-              value: "development"
+              value: 'development'
             - name: LOG_LEVEL
-              value: "info"
+              value: 'info'
             - name: JWT_SECRET
-              value: "production-jwt-secret-change-in-development"
+              value: 'production-jwt-secret-change-in-development'
             - name: ARCJET_KEY
-              value: "ajkey_01k5pb491aedsadr5m7jb153te"
+              value: 'ajkey_01k5pb491aedsadr5m7jb153te'
             - name: DATABASE_URL
-              value: "postgresql://neondb_owner:npg_E1xUGlNh6gec@ep-morning-voice-a14ua947-pooler.ap-southeast-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
+              value: 'postgresql://neondb_owner:npg_E1xUGlNh6gec@ep-morning-voice-a14ua947-pooler.ap-southeast-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require'
             - name: POD_NAME
               valueFrom:
                 fieldRef:
                   fieldPath: metadata.name
           resources:
             requests:
-              cpu: "100m"
-              memory: "128Mi"
+              cpu: '100m'
+              memory: '128Mi'
             limits:
-              cpu: "500m"
-              memory: "512Mi"
+              cpu: '500m'
+              memory: '512Mi'
           readinessProbe:
             httpGet:
               path: /readyz
