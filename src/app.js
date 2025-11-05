@@ -34,6 +34,14 @@ app.get('/health', (req, res) => {
   });
 });
 
+app.get('/readyz', (req, res) => {
+  res.status(200).send('ready');
+});
+
+app.get('/healthz', (req, res) => {
+  res.status(200).send('healthy');
+});
+
 app.get('/api', (req, res) => {
   res.status(200).json({ message: 'API is running' });
 });
