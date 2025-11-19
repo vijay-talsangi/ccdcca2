@@ -72,12 +72,6 @@ Push to Docker Hub → Production Deploy (docker-compose / orchestrator) → Mon
 
 ---
 
-![Deployment Flow](./assets/deployment.png)
-
-> **Place the deployment flow image at** `./assets/deployment.png` if you have one.
-
----
-
 ## ⚙️ Features Implemented
 
 - User Authentication endpoints:
